@@ -189,7 +189,7 @@ body {
 .secaoPagamentos_boleto {
     
 }
-.secaoPagamentos_boleto img {
+.secaoPagamentos_boleto img, .secaoPagamentos_cobrar img {
     width: 100%;
     max-width: 80px;
 }
@@ -199,7 +199,7 @@ body {
     font-weight: 600;
 }
 
-.secaoPagamentos_boleto p {
+.secaoPagamentos_boleto p, .secaoPagamentos_cobrar p {
     font-size: 18px;
     max-width: 500px;
     margin: 20px 0;
@@ -216,15 +216,44 @@ body {
     color: #000;
 }
 
-.secaoPagamentos_cobrar {
+.secaoPagamentos_cobrar .secaoPagamentos_boxOpcao p{
+    margin-left: 10px;
+}
+
+.rodape {
+    background-color: #fff;
+
+}
+
+.rodape_menuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_menuPrincipal li {
+    text-align: center;
+}
+
+.rodape_menuPrincipal li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.rodape_menuPrincipal li a img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.rodape_menuPrincipal li a p {
+    margin-top: 20px;
+}
+
+.rodape_menuItem--pagar {
+    transform: translateY(-35px);
     
 }
 
-.secaoPagamentos_cobrar img {
-
+.rodape_menuPrincipal .rodape_menuItem--pagar a img {
+    max-width: 80px;
 }
-
-.secaoPagamentos_cobrar p {
-
-}
-
