@@ -1,4 +1,10 @@
-# PicPro
+# PicPro  
+
+<div style="display: flexbox"><br>
+<img align="top" alt="Logo" height="60" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/763971090128175107/946434011708944444/picpay-icon.png">
+</div>
+
+##
 
 Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie Academy Brasil em parceria com o PicPay.
 
