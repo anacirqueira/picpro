@@ -1,11 +1,12 @@
-# PicPro
+# PicPro  
+
+<div style="display: flexbox"><br>
+<img align="top" alt="Logo" height="60" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/763971090128175107/946434011708944444/picpay-icon.png">
+</div>
+
+##
 
 Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie Academy Brasil em parceria com o PicPay.
-
-## Ferramentas
-
-1. [Instalação do VS Code no Windows](https://kenzie.com.br/blog/instalacao-vs-code-windows/)
-2. [Como utilizar o codepen e o VSCode](https://kenzie-academy-brasil.github.io/ferramentas/)
 
 ## Checkpoints aulas
 
