@@ -3,6 +3,12 @@ body {
     font-family: "Poppins", sans-serif;
 } 
 
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
 .cabecalho {
     padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -31,11 +37,13 @@ body {
 .secaoDetalhesConta_Usuario {
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 
 .secaoDetalhesConta_Usuario p {
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 16px;
+    padding-top: 24px;
 }
 
 .secaoDetalhesConta_Usuario img {
@@ -46,6 +54,7 @@ body {
 .secaoDetalhesConta_Usuario p strong {
     display: block;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 
 .secaoDetalhesConta_Saldo {
@@ -54,6 +63,7 @@ body {
     justify-content: space-between;
     padding: 30px 0;
     align-items: center;
+    margin-bottom: 10px;    
 }
 
 .secaoDetalhesConta_Saldo p {
@@ -85,6 +95,7 @@ body {
 .secaoDetalhesConta_transacoes {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .secaoDetalhesConta_transacoes li {
@@ -94,6 +105,11 @@ body {
     border-radius: 20px;
     padding: 40px 20px;
 }
+
+.secaoDetalhesConta_transacoes li:hover{
+    background-color: #ffffff59;
+}
+
 .secaoDetalhesConta_transacoes li img{
  width: 100%;
  max-width: 40px;
@@ -162,6 +178,7 @@ body {
 .secaoPagamentos_pix img {
     width: 100%;
     max-width: 150px;
+    margin-top: 60px;
 }
 
 .secaoPagamentos_boxOpcao {
@@ -214,6 +231,7 @@ body {
     border-radius: 10px;
     border: 1px solid #d4d4d4;
     color: #000;
+    box-sizing: border-box;
 }
 
 .secaoPagamentos_cobrar .secaoPagamentos_boxOpcao p{
