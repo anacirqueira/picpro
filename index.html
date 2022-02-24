@@ -3,65 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/reset.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picpro</title>
 </head>
 <body>
-    <header>
-        <div>
-            <figure>
+
+    <!-- cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <figure class="cabecalho_logoPicpro">
                 <img src="./assets/img/logo-picpro.png" alt="Logo Picpro">
             </figure>
-            <figure>
+            <figure class="cabecalho_logoKenzie"></figure>>
                 <img src="./assets/img/logo-kenzie.png" alt="Logo Kenzie">
             </figure>
         </div>
     </header>
 
+    <!-- conteúdo principal da página -->
     <main>
-        <section>
-            <div>
+        <section class="secaoDetalhesConta">
+            <div class="secaoDetalhesConta_Usuario"> 
                 <img src="./assets/img/usuario.png" alt="Ícone do usuario">
                 <p>Olá, <strong>@anacirqueira</strong></p>
             </div>
-            <div>
-                <p>Saldo PicPay, <strong>R$ 1.000</strong></p>
+            <div class="secaoDetalhesConta_Saldo">
+                <p>Saldo PicPay <strong>R$ 1.000</strong></p>
                 <button>Extrato</button>
             </div>
-                <ul>
-                    <li>
+                <ul class="secaoDetalhesConta_transacoes">
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="./assets/img/qrcode.png" alt="Ícone qrcode">
                         <p>QR code</p>
                     </li>
-                    <li>
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="./assets/img/pix.png" alt="Ícone pix">
                         <p>Pix</p>
                     </li>
-                    <li>
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="./assets/img/codigo.png" alt="Ícone boleto">
                         <p>Pagar boleto</p>
                     </li>
-                    <li>
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="./assets/img/cobrar-icon.png" alt="Ícone cobrar">
                         <p>Cobrar</p>
                     </li>
                 </ul>     
         </section>
         
-        <section>
+        <section class="secaoPagamentos">
 
             <!-- div geral -->
-            <div>
+            <div class="container">
 
                 <!-- div selecione forma de pagamento -->
-                <div>
+                <div class="secaoPagamentos_aviso"> 
                     <p>Selecione a forma de pagamento</p>
                     <img src="./assets/img/banner.png" alt="Banner picpay">
                 </div>
                 
                 <!-- div do QRcode-->
-                <div>
+                <div class="secaoPagamentos_qrcode">
                     <img src="assets/img/qrcode-imagem.png" alt="Imagem QRcode">
                     <p>@anacirqueira</p>
                     <button>Cobre um amigo</button>
@@ -69,20 +73,20 @@
                 </div>
 
                 <!-- div do Pix -->
-                <div>
+                <div class="secaoPagamentos_pix">
                     <img src="assets/img/pix-logo.png" alt="Logo pix">
-                    <div>
+                    <div class="secaoPagamentos_boxOpcao">
                         <img src="assets/img/pix1.png" alt="Ícone opção pix">
                         <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
                     </div>
-                    <div>
+                    <div class="secaoPagamentos_boxOpcao">
                         <img src="assets/img/pix2.png" alt="Ícone copia e cola">
                         <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
                     </div>
                 </div>
 
                 <!-- div do boleto -->
-                <div>
+                <div class="secaoPagamentos_boleto">
                     <img src="assets/img/boleto.png" alt="Ícone boleto">
                     <h2>Pagar com código de barras</h2>
                     <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira pra pagar à vista</p>
@@ -90,11 +94,11 @@
                 </div>
 
                 <!-- cobrar -->
-                <div>
+                <div class="secaoPagamentos_cobrar">
                     <img src="assets/img/cobrar.png" alt="Ícone cobrar">
                     <h2>Cobrar</h2>
                     <p>Divida a conta com os amigos de forma fácil!</p>
-                    <div>
+                    <div class="secaoPagamentos_boxOpcaor">
                         <img src="assets/img/picpay-icon.png" alt="Ícone picpay">
                         <p>
                             <strong>Amigos do Picpay</strong>
@@ -107,33 +111,33 @@
         </section>
 
         <!-- rodapé -->
-        <footer>
-            <ul>
-                <li>
+        <footer class="rodape">
+            <ul class="rodape_menuPrincipal">
+                <li class="rodape_menuItem">
                     <a href="#">
                         <img src="assets/img/inicio.png" alt="Ícone inicio">
                         <p>Início</p>
                     </a>
                 </li>
-                <li>
+                <li class="rodape_menuItem">
                     <a href="#">
                         <img src="assets/img/carteira-icon.png" alt="Ícone carteira">
                         <p>Carteira</p>
                     </a>
                 </li>
-                <li>
+                <li class="rodape_menuItem">
                     <a href="#">
                         <img src="assets/img/pagar.png" alt="Ícone pagar">
                         <p>Pagar</p>
                     </a>
                 </li>
-                <li>
+                <li class="rodape_menuItem">
                     <a href="#">
                         <img src="assets/img/notificacao.png" alt="Ícone notificações">
                         <p>Notificações</p>
                     </a>
                 </li>
-                <li>
+                <li class="rodape_menuItem">
                     <a href="#">
                         <img src="assets/img/bolsa.png" alt="Ícone Store">
                         <p>Store</p>

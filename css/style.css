@@ -1,4 +1,81 @@
 body {
     background-color: #4a8864;
-    color: white;
 } 
+
+.cabecalho {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho figure img {
+    width: 100%;
+    max-width: 140px;
+
+}
+
+.cabecalho .cabecalho_logoPicpro {
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+}
+
+.secaoDetalhesConta {
+    color: #fff;
+}
+
+.secaoDetalhesConta_Usuario {
+    display: flex;
+    align-items: center;
+}
+
+.secaoDetalhesConta_Usuario p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.secaoDetalhesConta_Usuario img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.secaoDetalhesConta_Usuario p strong {
+    display: block;
+    font-weight: bold;
+}
+
+.secaoDetalhesConta_Saldo {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.secaoDetalhesConta_Saldo p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.secaoDetalhesConta_Saldo p strong {
+    display: block;
+    font-weight: 600;
+}
+
+.secaoDetalhesConta_Saldo button {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.secaoDetalhesConta Transacoes {
+    display: flex;
+    justify-content: space-between;
+}
