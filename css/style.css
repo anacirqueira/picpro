@@ -1,5 +1,5 @@
 body {
-    background-color: #4a8864;
+    background-color: #228565;
 } 
 
 .cabecalho {
@@ -75,7 +75,43 @@ body {
     cursor: pointer;
 }
 
-.secaoDetalhesConta Transacoes {
+.secaoDetalhesConta_transacoes {
     display: flex;
     justify-content: space-between;
+}
+
+.secaoDetalhesConta_transacoes li {
+    background-color: #1f6f54;
+    width: 170px;
+    height: 177px;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+.secaoDetalhesConta_transacoes li img{
+ width: 100%;
+ max-width: 40px;
+}
+
+.secaoDetalhesConta_transacoes li p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 80px;
+}
+
+.secaoPagamentos {
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 15px solid #f0f0f0;
+}
+
+.secaoPagamentos_aviso p {
+    font-size: 25px;
+    
+
+}
+
+.secaoPagamentos_aviso img {
+
 }
