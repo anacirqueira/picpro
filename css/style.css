@@ -1,5 +1,6 @@
 body {
     background-color: #228565;
+    font-family: "Poppins", sans-serif;
 } 
 
 .cabecalho {
@@ -65,6 +66,11 @@ body {
     font-weight: 600;
 }
 
+.secaoDetalhesConta_Saldo img {
+    width: 100%;
+    max-width: 25px;
+}
+
 .secaoDetalhesConta_Saldo button {
     background-color: #fff;
     border: none;
@@ -104,14 +110,18 @@ body {
     background-color: #fff;
     border-radius: 20px 20px 0 0;
     border-bottom: 15px solid #f0f0f0;
+    padding: 30px 0;
 }
 
 .secaoPagamentos_aviso p {
     font-size: 25px;
-    
-
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .secaoPagamentos_aviso img {
-
+    margin: 30px 0 90px;
+    width: 100%;
 }
