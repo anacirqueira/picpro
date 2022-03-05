@@ -159,4 +159,13 @@ tagButton.innerText = "Extrato 2"
 //CRIANDO LISTA DE NOMES
 let filaAtendimento = ["Hudosn", "Vitor", "Ana", "Mayara", "Greg", "Jean"]
 
-const lista = document
+const lista = document.querySelector(".listaNomes")
+
+//para        //condição            //incremento
+for(let i = 0; i < filaAtendimento.length; i++){
+
+  //CRIANDO UM LI
+  const liNome = 
+
+
+}
