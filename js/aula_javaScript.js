@@ -149,3 +149,14 @@ for(let i = 0; i < filaAtendimento; i++){
 //const button = document.querySelectorAll()
 //const button = document.getElementById()
 
+//CRIANDO ELEMENTOS NO JAVASCRIPT
+const body       = document.querySelector("body")
+const tagButton  = document.createElement("button")
+tagButton.innerText = "Extrato 2"
+
+//body.appendChild(tagButton)
+
+//CRIANDO LISTA DE NOMES
+let filaAtendimento = ["Hudosn", "Vitor", "Ana", "Mayara", "Greg", "Jean"]
+
+const lista = document
