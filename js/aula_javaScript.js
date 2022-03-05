@@ -165,7 +165,54 @@ const lista = document.querySelector(".listaNomes")
 for(let i = 0; i < filaAtendimento.length; i++){
 
   //CRIANDO UM LI
-  const liNome = 
+  const liNome = document.createElement("li")
+
+  //ALIMENTO ESSE LI COM CADA NOME
+  liNome.innerText = filaAtendimento[i]
+
+  //lista.appendChild(liNome)
+
+}
+
+//EVENTOS
 
 
+//1 SELECIONAR INPUT **
+    //A) PEGAR O VALOR DO CAMPO **
+
+//2 ADICIONAR UM EVENTO NO BOTÃO/CLIQUE **
+//3 GUARDAR O VALOR EM ALGUM LUGAR **
+//4 SELECIONAR A LISTA **
+//5 CRIAR UM LI (ITEM DA LISTA)
+//6 ALIMENTAR COM O VALOR DO INPUT
+//7 JOGAR ELE PARA DENTRO DA LISTA
+
+//SELECIONANDO BUTTON DO HTML
+const btnAdicionar = document.querySelector(".btnAdicionar")
+
+//SELECIONANDO A LISTA DE NOMES
+const ol = document.querySelector("ol")
+
+//INTERCEPTANDO EVENTO NO BUTTON
+btnAdicionar.addEventListener("click", pegarValores)
+
+//FUNÇÃO QUE VAI EXECUTAR
+function pegarValores(event){
+  //console.log(event)
+
+  //SELECIONANDO INPUT
+  const inputTexto = document.querySelector(".inputTexto")
+
+  //PEGANDO VALOR DO INPUT
+  const li = document.createElement("li")
+
+  //CRIANDO LI PARA ALIMENTAR A LISTA
+  const li = document.createElement("li")
+
+  //ALIMENTAR LI COM O VALOR DO CAMPO
+  li.innerText = valorInput
+
+  //ADICIONANDO O LI COM AS INFORMAÇÕES DA LISTA
+  ol.appendChild(li)
+  
 }
