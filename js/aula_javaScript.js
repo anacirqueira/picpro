@@ -145,3 +145,7 @@ for(let i = 0; i < filaAtendimento; i++){
 
 //AULA DE DOM 
 //SELETORES
+//const button = document.querySelector()
+//const button = document.querySelectorAll()
+//const button = document.getElementById()
+
