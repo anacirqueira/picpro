@@ -204,15 +204,15 @@ function pegarValores(event){
   const inputTexto = document.querySelector(".inputTexto")
 
   //PEGANDO VALOR DO INPUT
-  const li = document.createElement("li")
+  //const li = document.createElement("li")
 
   //CRIANDO LI PARA ALIMENTAR A LISTA
-  const li = document.createElement("li")
+  //const li = document.createElement("li")
 
   //ALIMENTAR LI COM O VALOR DO CAMPO
   li.innerText = valorInput
 
   //ADICIONANDO O LI COM AS INFORMAÇÕES DA LISTA
   ol.appendChild(li)
-  
+
 }
