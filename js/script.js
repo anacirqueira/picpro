@@ -6,7 +6,7 @@
 
 
 //SELECIONANDO UL(LISTA)
-const listaOpcoes = document.querySelector(".secaoDetalhesConta_Transacoes")
+const listaOpcoes = document.querySelector(".secaoDetalhesConta_transacoes")
 
 //ADICIONANDO ESCUTADOR DE EVENTOS
 listaOpcoes.addEventListener("click", indentificarOpcoes)
