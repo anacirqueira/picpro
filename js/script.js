@@ -38,3 +38,13 @@ function indentificarOpcoes(event){
 
 
 //FUNÇÃO PARA REMOVER AS CLASSES DAS DIV'S
+function removeClasseMostrar(){
+  const divs = document.querySelectorAll(".secaoTransacao .container div")
+
+  for(let i = 0; i < divs.length; i++){
+
+
+      divs[i].classList.remove("mostrar")
+
+  }
+}
