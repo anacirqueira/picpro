@@ -149,6 +149,10 @@ body {
     display: none;
 }
 
+.secaoTransacao .container div.mostrar{
+    display: block;
+}
+
 .secaoPagamentos_aviso p {
     font-size: 25px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
