@@ -27,6 +27,14 @@ function indentificarOpcoes(event){
     const secaoEscolha = document.querySelector(`div[data-id="${id}"]`)
 
     //REMOVENDO A CLASSE MOSTRAR
+    removeClasseMostrar()
+
+    //ADICIONANDO UMA CLASSE
+    secaoEscolha.classList.add("mostrar")
+
   }
 
 }
+
+
+//FUNÇÃO PARA REMOVER AS CLASSES DAS DIV'S
