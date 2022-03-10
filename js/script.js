@@ -24,7 +24,9 @@ function indentificarOpcoes(event){
     const id = elemento.id
 
     //SELECIONANDO UMA SEÇÃO UTILIZANDO O ID(ESCOLHA DO USUÁRIO)
-    const secaoEscolha = document.querySelector()
+    const secaoEscolha = document.querySelector(`div[data-id="${id}"]`)
+
+    //REMOVENDO A CLASSE MOSTRAR
   }
 
 }
