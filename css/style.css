@@ -143,13 +143,14 @@ body {
     border-radius: 20px 20px 0 0;
     border-bottom: 15px solid #f0f0f0;
     padding: 30px 0;
+    min-height: 450px;
 }
 
-.secaoTransacao .container div {
+.secaoPagamentos .container div {
     display: none;
 }
 
-.secaoTransacao .container div.mostrar{
+.secaoPagamentos .container div.mostrar{
     display: block;
 }
 
@@ -227,9 +228,6 @@ body {
     margin-left: 20px;
 }
 
-.secaoPagamentos_boleto {
-    
-}
 .secaoPagamentos_boleto img, .secaoPagamentos_cobrar img {
     width: 100%;
     max-width: 80px;

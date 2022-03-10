@@ -42,7 +42,7 @@
                 </div>
                               
                 <div class="secaoDetalhesConta_Saldo">
-                    <p>Saldo PicPay <strong>R$ 1.000</strong>
+                    <p>Saldo PicPay <strong>R$ 1.000.000</strong>
                      <img src="assets/img/visualizar.png" alt="Ícone visualizar"/></p>                  
                     <button>Extrato</button>
                  </div>
@@ -59,7 +59,7 @@
                         <img src="./assets/img/codigo.png" alt="Ícone boleto">
                         <p>Pagar boleto</p>
                     </li>
-                    <li class="secaoDetalhesConta_itemTransacao" id="4/">
+                    <li class="secaoDetalhesConta_itemTransacao" id="4">
                         <img src="./assets/img/cobrar-icon.png" alt="Ícone cobrar">
                         <p>Cobrar</p>
                     </li>
@@ -79,7 +79,7 @@
                 </div>
                 
                 <!-- div do QRcode-->
-                <div class="secaoPagamentos_qrcode">
+                <div data-id="1" class="secaoPagamentos_qrcode">
                     <img src="assets/img/qrcode-imagem.png" alt="Imagem QRcode">
                     <p>@anacirqueira</p>
                     <button>Cobre um amigo</button>
@@ -87,7 +87,7 @@
                 </div>
 
                 <!-- div do Pix -->
-                <div class="secaoPagamentos_pix">
+                <div div data-id="2" class="secaoPagamentos_pix">
                     <img src="assets/img/pix-logo.png" alt="Logo pix">
                     <div class="secaoPagamentos_boxOpcao">
                         <img src="assets/img/pix1.png" alt="Ícone opção pix">
@@ -100,7 +100,7 @@
                 </div>
 
                 <!-- div do boleto -->
-                <div class="secaoPagamentos_boleto">
+                <div div data-id="3" class="secaoPagamentos_boleto">
                     <img src="assets/img/boleto.png" alt="Ícone boleto">
                     <h2>Pagar com código de barras</h2>
                     <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira pra pagar à vista</p>
@@ -108,7 +108,7 @@
                 </div>
 
                 <!-- cobrar -->
-                <div class="secaoPagamentos_cobrar">
+                <div div data-id="4" class="secaoPagamentos_cobrar">
                     <img src="assets/img/cobrar.png" alt="Ícone cobrar">
                     <h2>Cobrar</h2>
                     <p>Divida a conta com os amigos de forma fácil!</p>
@@ -162,6 +162,7 @@
         </div>
         </footer>   
     </main>
-    <script src="js/script.js"></script>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
