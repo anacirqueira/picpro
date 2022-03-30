@@ -127,11 +127,6 @@ body {
     cursor: pointer;
 }
 
-.secaoDetalhesConta_transacoes li:hover{
-    background-color: #fff;
-    color: #4a8864;
-}
-
 .secaoDetalhesConta_transacoes li img{
     width: 100%;
     max-width: 40px;
@@ -304,3 +299,32 @@ body {
 .rodape_menuPrincipal .rodape_menuItem--pagar a img {
     max-width: 80px;
 }
+
+/* Desafio Hover */
+.secaoDetalhesConta__itemTransacao:hover {
+    background-color: #fff;
+    color: #228664;
+}
+
+/* inserir aqui as figures*/
+
+.secaoDetalhesConta_itemTransacao--qrCode:hover figure {
+    background-image: url("/assets/img/qrcode-verde.png")
+}
+.secaoDetalhesConta_itemTransacao--pix:hover figure {
+    background-image: url("/assets/img/pix-verde.png")
+}
+.secaoDetalhesConta_itemTransacao--boleto:hover figure {
+    background-image: url("/assets/img/boleto-verde.png")
+}
+.secaoDetalhesConta_itemTransacao--cobrar:hover figure {
+    background-image: url("/assets/img/cobrar-verde.png")
+}
+
+.secaoDetalhesConta__itemTransacao figure img {
+    width: 100%;
+    max-width: 25px;
+    height: 20px;
+    opacity: 0;
+}
+
