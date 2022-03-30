@@ -82,19 +82,24 @@ body {
     margin-bottom: 10px;    
 }
 
+.secaoDetalhesConta_Saldo--valor {
+    display: flex;
+}
+
 .secaoDetalhesConta_Saldo p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
 }
 
-.secaoDetalhesConta_Saldo p strong {
-    display: block;
+.secaoDetalhesConta_Saldo--valor p {
     font-weight: 600;
 }
 
-.secaoDetalhesConta_Saldo img {
-    width: 100%;
-    max-width: 28px;
+.secaoDetalhesConta_Saldo--valor img {
+   display: block;
+   height: 18px;
+   width: 30px;
+   margin-left: 12px;
 }
 
 .secaoDetalhesConta_Saldo button {
@@ -123,7 +128,8 @@ body {
 }
 
 .secaoDetalhesConta_transacoes li:hover{
-    background-color: #ffffff59;
+    background-color: #fff;
+    color: #4a8864;
 }
 
 .secaoDetalhesConta_transacoes li img{

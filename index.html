@@ -42,31 +42,49 @@
                 </div>
                               
                 <div class="secaoDetalhesConta_Saldo">
-                    <p>Saldo PicPay <strong>R$ 1.000.000</strong>
-                     <img src="assets/img/visualizar.png" alt="Ícone visualizar"/></p>                  
-                    <button>Extrato</button>
+                    <div>
+                        <p>Saldo PicPay</p>
+                        <div class="secaoDetalhesConta_Saldo--valor">
+                            <p>R$ 1.000.000</p>
+                            <img src="assets/img/visualizar.png" alt="Ícone visualizar"/>                
+                        </div>
+                    </div>
+                    <button id="btnExtrato">Extrato</button>
                  </div>
+
                 <ul class="secaoDetalhesConta_transacoes">
                     <li class="secaoDetalhesConta_itemTransacao" id="1">
-                        <img src="./assets/img/qrcode.png" alt="Ícone qrcode">
+                        <figure>
+                            <img src="./assets/img/qrcode.png" alt="Ícone qrcode">
+                        </figure>
                         <p>QR code</p>
                     </li>
+
                     <li class="secaoDetalhesConta_itemTransacao" id="2">
-                        <img src="./assets/img/pix.png" alt="Ícone pix">
+                        <figure>
+                            <img src="./assets/img/pix.png" alt="Ícone pix">
+                        </figure>
                         <p>Pix</p>
                     </li>
+
                     <li class="secaoDetalhesConta_itemTransacao" id="3">
-                        <img src="./assets/img/codigo.png" alt="Ícone boleto">
+                        <figure>
+                            <img src="./assets/img/codigo.png" alt="Ícone boleto">
+                        </figure>
                         <p>Pagar boleto</p>
                     </li>
+
                     <li class="secaoDetalhesConta_itemTransacao" id="4">
-                        <img src="./assets/img/cobrar-icon.png" alt="Ícone cobrar">
+                        <figure>
+                            <img src="./assets/img/cobrar-icon.png" alt="Ícone cobrar">
+                        </figure>
                         <p>Cobrar</p>
                     </li>
-                </ul>  
-            </div>   
+                </ul>
+
+            </div>         
         </section>
-        
+
         <section class="secaoPagamentos">
 
             <!-- div geral -->
@@ -122,6 +140,7 @@
                 </div>
 
             </div>
+
         </section>
 
         <!-- rodapé -->
